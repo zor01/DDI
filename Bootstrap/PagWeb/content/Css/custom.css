@@ -1,0 +1,24 @@
+.gray{
+    background-color: #e8faf7;
+}
+.visible{
+    position:fixed;
+}
+
+.gris{
+    color: #7f7f7f;
+}
+
+.resolucion{
+    height: 100vh;
+}
+
+.marco{
+    background-color: #515a55;
+}
+.letras_blancas{
+    color:white;
+}
+.gradiente_custom{
+    background: linear-gradient(120deg, #55c1d4, #666666)
+}

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Ejercicio3</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="./content/Css/custom.css">
+
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <div class="container-fluid bg-gradient gray resolucion p-0"> 
+            <nav class="navbar navbar-expand-md navbar-light bg-light rounded-bottom shadow-lg visible w-100 p-2">
+                <button class="navbar-toggler pl-3" type="button" data-toggle="collapse" data-target="#Expandir" aria-controls="Expandir" aria-expanded="false" aria-label="Menu de opciones">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse ml-3" id="Expandir">
+                        <a class="navbar-brand" href="./default.html">
+                            <img src="./content/img/Worlds.webp" alt="imagen_barra_de_navegacion" height="30">
+                            Worlds 2021
+                        </a>
+                        <ul class="navbar-nav mb-2">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./default.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./equipos.html">Equipos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./ver.html">Ver</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="collapse navbar-collapse" id="Expandir">
+                        <div class="container w-80">
+                            <form class="input-group">
+                                <input type="search" class="form-control rounded" placeholder="Search"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="container-fluid col-12 p-5 align-items-center">
+                <br>
+                <p class="h1">Worlds 2021</p>
+                
+                <div class="container-fluid marco rounded shadow col-4 p-2 gradiente_custom letras_blancas">
+                    <p class="p">Inserta tu correo y te notificaremos cuando estemos en directo</p> 
+                    <br>
+                    <form>
+                        <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-3 col-form-label">Email</label>
+                                <div class="col-sm-9">
+                            <input type="email" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <fieldset class="row mb-3">
+                            <legend class="col-form-label col-sm-3 pt-0">¿Cuando quieres que te avisemos?</legend>
+                            <div class="col-sm-9">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="opcion1" checked>
+                                    Cada partido
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="opcion2">
+                                    Cuartos de final y en adelante
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="opcion3">
+                                    Solo la final
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <legend class="col-form-label col-sm-3 pt-0">Selecciona tu region</legend>
+                                <div class="col-sm-9">
+                                    <select name="region" id="region">
+                                        <option value="EU">Europa</option>
+                                        <option value="NA">Norte america</option>
+                                        <option value="corea">Corea</option>
+                                        <option value="China">China</option>
+                                    </select>
+                                </div>
+                            </div>
+                            </fieldset>
+                        <button type="submit" class="btn btn-primary">Aceptar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

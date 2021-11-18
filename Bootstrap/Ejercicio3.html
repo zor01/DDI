@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Parchis</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+        <style>
+            .verde{
+                background-color:limegreen;
+            }
+            .rojo{
+                background-color:red;
+            }
+            .azul{
+                background-color:#038eff;
+            }
+            .amarillo{
+                background-color:yellow;
+            }
+
+
+            .base{
+                height: 100px;
+            }
+            .ancho{
+                width:600px;
+            }
+            .horizontal{
+                height: 28.5714285714px;
+            }
+            .circulo {
+                width: 25px;
+                height: 25px;
+                position: absolute!important;
+                background-color:bisque;
+                margin-top: 1px;
+                margin-left: 20px;
+            }
+            .texto_derecha{
+                position: absolute;
+                margin-left: 47px;
+            }
+
+
+            .gira{
+                transform: rotate(90deg);
+            }
+            .gira180{
+                transform: rotate(180deg);
+            }
+            .gira270{
+                transform: rotate(270deg);
+            }
+        </style>
+    </head>
+ 
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
+        <div class="container ancho p-0 pt-3">
+            <div class="contaier col-4 float-start p-0">
+                <div class="d-flex rojo base col-6 border border-dark float-start"></div>
+                <div class="d-flex rojo base col-6 border border-dark float-start"></div>
+                <div class="d-flex rojo base col-6 border border-dark float-start"></div>
+                <div class="d-flex rojo base col-6 border border-dark float-start"></div>
+            </div>
+
+            <div class="container p-0 float-start col-4 gira180">
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">27</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start rojo"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">41</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">28</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start rojo"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">40</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start">
+                        <p class="texto_derecha">
+                            29
+                        </p> 
+                        <div class="d-flex circulo rounded-circle border border-dark"></div>
+                    </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start rojo"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start rojo">
+                        39
+                        <div class="d-flex circulo rounded-circle border border-dark"></div>
+                    </div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">30</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start rojo"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">38</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">31</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start rojo"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">37</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">32</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start rojo"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">36</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">33</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">
+                        <p class="texto_derecha">34 </p> 
+                        <div class="d-flex circulo rounded-circle border border-dark"></div>
+                    </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">35</div>
+                </div>
+            </div>
+
+            <div class="contaier col-4 float-start p-0">
+                <div class="d-flex azul base col-6 border border-dark float-start"></div>
+                <div class="d-flex azul base col-6 border border-dark float-start"></div>
+                <div class="d-flex azul base col-6 border border-dark float-start"></div>
+                <div class="d-flex azul base col-6 border border-dark float-start"></div>
+            </div>
+
+            <div class="container p-0 float-start col-4 gira">
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">44</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start verde"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">58</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">45</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start verde"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">57</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start">
+                        <p class="texto_derecha">46 </p> 
+                        <div class="d-flex circulo rounded-circle border border-dark"></div>
+                    </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start verde"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start verde">
+                        56
+                        <div class="d-flex circulo rounded-circle border border-dark"></div>
+                    </div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">47</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start verde"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">55</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">48</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start verde"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">54</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">49</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start verde"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">53</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">50</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">
+                        <p class="texto_derecha">51 </p> 
+                        <div class="d-flex circulo rounded-circle border border-dark"></div>
+                    </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">52</div>
+                </div>
+            </div>
+            
+            <img src="data:image/png;base64,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" height="199.9999998px">
+
+            <div class="container p-0 float-end col-4 gira270">
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">10</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start azul"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">24</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">11</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start azul"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">23</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start">
+                        <p class="texto_derecha">12 </p> 
+                        <div class="d-flex circulo rounded-circle border border-dark"></div>
+                    </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start azul"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start azul">
+                        22
+                        <div class="d-flex circulo rounded-circle border border-dark"></div>
+                    </div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">13</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start azul"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">21</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">14</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start azul"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">20</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">15</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start azul"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">19</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">16</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">
+                        <p class="texto_derecha">17 </p> 
+                        <div class="d-flex circulo rounded-circle border border-dark"></div>
+                    </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">18</div>
+                </div>
+            </div>
+            <div class="contaier col-4 float-start p-0">
+                <div class="d-flex verde base col-6 border border-dark float-start"></div>
+                <div class="d-flex verde base col-6 border border-dark float-start"></div>
+                <div class="d-flex verde base col-6 border border-dark float-start"></div>
+                <div class="d-flex verde base col-6 border border-dark float-start"></div>
+            </div>
+
+            <div class="container p-0 float-start col-4">
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">61</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start amarillo"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">7</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">62</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start amarillo"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">6</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start">
+                        <p class="texto_derecha">63 </p> 
+                        <div class="d-flex circulo rounded-circle border border-dark"></div>
+                    </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start amarillo"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start amarillo">
+                        5
+                        <div class="d-flex circulo rounded-circle border border-dark"></div>
+                    </div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">64</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start amarillo"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">4</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">65</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start amarillo"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">3</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">66</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start amarillo"> </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">2</div>
+                </div>
+                <div class="container col-12 float-start p-0">
+                    <div class="d-flex horizontal col-4 border border-dark float-start justify-content-end">67</div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">
+                        <p class="texto_derecha">68 </p> 
+                        <div class="d-flex circulo rounded-circle border border-dark"></div>
+                    </div>
+                    <div class="d-flex horizontal col-4 border border-dark float-start">1</div>
+                </div>
+            </div>
+
+            <div class="contaier col-4 float-start p-0">
+                <div class="d-flex amarillo base col-6 border border-dark float-start"></div>
+                <div class="d-flex amarillo base col-6 border border-dark float-start"></div>
+                <div class="d-flex amarillo base col-6 border border-dark float-start"></div>
+                <div class="d-flex amarillo base col-6 border border-dark float-start"></div>
+            </div>
+        </div>
+    </body>
+</html>
