@@ -1,0 +1,347 @@
+2021-11-19 09:40:02 INFO  JdbcDdlExample:36 - 
+=======CREATE tutorialDb DATABASE=======
+2021-11-19 09:40:02 INFO  JdbcDdlExample:38 - 
+=======DATABASE IS SUCCESSFULLY CREATED=======
+
+2021-11-19 09:40:02 INFO  JdbcDdlExample:40 - 
+=======USING tutorialDb DATABASE=======
+
+2021-11-19 09:40:02 INFO  JdbcDdlExample:44 - 
+=======CREATE employee TABLE=======
+2021-11-19 09:40:02 INFO  JdbcDdlExample:46 - 
+=======TABLE IS SUCCESSFULLY CREATED=======
+
+2021-11-19 09:40:02 INFO  JdbcDdlExample:48 - 
+=======SHOW TABLE STRUCTURE=======
+2021-11-19 09:40:02 INFO  JdbcDdlExample:112 - employee Columns Are?= (emp_id, emp_fname, emp_lname)
+
+2021-11-19 09:40:02 INFO  JdbcDdlExample:52 - 
+=======ALTER employee TABLE=======
+2021-11-19 09:40:02 INFO  JdbcDdlExample:54 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2021-11-19 09:40:02 INFO  JdbcDdlExample:56 - 
+=======SHOW TABLE STRUCTURE=======
+2021-11-19 09:40:02 INFO  JdbcDdlExample:112 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_joining_date)
+
+2021-11-19 09:40:02 INFO  JdbcDdlExample:60 - 
+=======ALTER employee TABLE WITH AFTER CLAUSE=======
+2021-11-19 09:40:02 INFO  JdbcDdlExample:62 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2021-11-19 09:40:02 INFO  JdbcDdlExample:64 - 
+=======SHOW TABLE STRUCTURE=======
+2021-11-19 09:40:02 INFO  JdbcDdlExample:112 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_dob, emp_joining_date)
+
+2021-11-19 09:40:02 INFO  JdbcDdlExample:68 - 
+=======DROP COLUMN=======
+2021-11-19 09:40:02 INFO  JdbcDdlExample:70 - 
+=======COLUMN IS SUCCESSFULLY DROPPED FROM THE TABLE=======
+
+2021-11-19 09:40:02 INFO  JdbcDdlExample:72 - 
+=======SHOW TABLE STRUCTURE=======
+2021-11-19 09:40:02 INFO  JdbcDdlExample:112 - employee Columns Are?= (emp_id, emp_fname, emp_dob, emp_joining_date)
+
+2021-11-19 09:40:02 INFO  JdbcDdlExample:76 - 
+=======DROP TABLE=======
+2021-11-19 09:40:02 INFO  JdbcDdlExample:78 - 
+=======TABLE IS SUCCESSFULLY DROPPED FROM THE DATABASE=======
+
+2021-11-19 09:40:02 INFO  JdbcDdlExample:81 - 
+=======DROP DATABASE=======
+2021-11-19 09:40:02 INFO  JdbcDdlExample:83 - 
+=======DATABASE IS SUCCESSFULLY DROPPED=======
+2021-11-19 11:01:53 INFO  JdbcDdlExample:36 - 
+=======CREATE tutorialDb DATABASE=======
+2021-11-19 11:01:53 INFO  JdbcDdlExample:38 - 
+=======DATABASE IS SUCCESSFULLY CREATED=======
+
+2021-11-19 11:01:53 INFO  JdbcDdlExample:40 - 
+=======USING tutorialDb DATABASE=======
+
+2021-11-19 11:01:53 INFO  JdbcDdlExample:44 - 
+=======CREATE employee TABLE=======
+2021-11-19 11:01:53 INFO  JdbcDdlExample:46 - 
+=======TABLE IS SUCCESSFULLY CREATED=======
+
+2021-11-19 11:01:53 INFO  JdbcDdlExample:48 - 
+=======SHOW TABLE STRUCTURE=======
+2021-11-19 11:01:53 INFO  JdbcDdlExample:112 - employee Columns Are?= (emp_id, emp_fname, emp_lname)
+
+2021-11-19 11:01:53 INFO  JdbcDdlExample:52 - 
+=======ALTER employee TABLE=======
+2021-11-19 11:01:53 INFO  JdbcDdlExample:54 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2021-11-19 11:01:53 INFO  JdbcDdlExample:56 - 
+=======SHOW TABLE STRUCTURE=======
+2021-11-19 11:01:53 INFO  JdbcDdlExample:112 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_joining_date)
+
+2021-11-19 11:01:53 INFO  JdbcDdlExample:60 - 
+=======ALTER employee TABLE WITH AFTER CLAUSE=======
+2021-11-19 11:01:53 INFO  JdbcDdlExample:62 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2021-11-19 11:01:53 INFO  JdbcDdlExample:64 - 
+=======SHOW TABLE STRUCTURE=======
+2021-11-19 11:01:53 INFO  JdbcDdlExample:112 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_dob, emp_joining_date)
+
+2021-11-19 11:01:53 INFO  JdbcDdlExample:68 - 
+=======DROP COLUMN=======
+2021-11-19 11:01:53 INFO  JdbcDdlExample:70 - 
+=======COLUMN IS SUCCESSFULLY DROPPED FROM THE TABLE=======
+
+2021-11-19 11:01:53 INFO  JdbcDdlExample:72 - 
+=======SHOW TABLE STRUCTURE=======
+2021-11-19 11:01:53 INFO  JdbcDdlExample:112 - employee Columns Are?= (emp_id, emp_fname, emp_dob, emp_joining_date)
+
+2021-11-19 11:01:53 INFO  JdbcDdlExample:76 - 
+=======DROP TABLE=======
+2021-11-19 11:01:53 INFO  JdbcDdlExample:78 - 
+=======TABLE IS SUCCESSFULLY DROPPED FROM THE DATABASE=======
+
+2021-11-19 11:01:53 INFO  JdbcDdlExample:81 - 
+=======DROP DATABASE=======
+2021-11-19 11:01:53 INFO  JdbcDdlExample:83 - 
+=======DATABASE IS SUCCESSFULLY DROPPED=======
+2021-11-19 11:12:04 INFO  JdbcDdlExample:36 - 
+=======CREATE tutorialDb DATABASE=======
+2021-11-19 11:12:04 INFO  JdbcDdlExample:38 - 
+=======DATABASE IS SUCCESSFULLY CREATED=======
+
+2021-11-19 11:12:04 INFO  JdbcDdlExample:40 - 
+=======USING tutorialDb DATABASE=======
+
+2021-11-19 11:12:04 INFO  JdbcDdlExample:44 - 
+=======CREATE employee TABLE=======
+2021-11-19 11:12:04 INFO  JdbcDdlExample:46 - 
+=======TABLE IS SUCCESSFULLY CREATED=======
+
+2021-11-19 11:12:04 INFO  JdbcDdlExample:48 - 
+=======SHOW TABLE STRUCTURE=======
+2021-11-19 11:12:04 INFO  JdbcDdlExample:112 - employee Columns Are?= (emp_id, emp_fname, emp_lname)
+
+2021-11-19 11:12:04 INFO  JdbcDdlExample:52 - 
+=======ALTER employee TABLE=======
+2021-11-19 11:12:04 INFO  JdbcDdlExample:54 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2021-11-19 11:12:04 INFO  JdbcDdlExample:56 - 
+=======SHOW TABLE STRUCTURE=======
+2021-11-19 11:12:04 INFO  JdbcDdlExample:112 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_joining_date)
+
+2021-11-19 11:12:04 INFO  JdbcDdlExample:60 - 
+=======ALTER employee TABLE WITH AFTER CLAUSE=======
+2021-11-19 11:12:04 INFO  JdbcDdlExample:62 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2021-11-19 11:12:04 INFO  JdbcDdlExample:64 - 
+=======SHOW TABLE STRUCTURE=======
+2021-11-19 11:12:04 INFO  JdbcDdlExample:112 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_dob, emp_joining_date)
+
+2021-11-19 11:12:04 INFO  JdbcDdlExample:68 - 
+=======DROP COLUMN=======
+2021-11-19 11:12:04 INFO  JdbcDdlExample:70 - 
+=======COLUMN IS SUCCESSFULLY DROPPED FROM THE TABLE=======
+
+2021-11-19 11:12:04 INFO  JdbcDdlExample:72 - 
+=======SHOW TABLE STRUCTURE=======
+2021-11-19 11:12:04 INFO  JdbcDdlExample:112 - employee Columns Are?= (emp_id, emp_fname, emp_dob, emp_joining_date)
+
+2021-11-19 11:12:04 INFO  JdbcDdlExample:76 - 
+=======DROP TABLE=======
+2021-11-19 11:12:04 INFO  JdbcDdlExample:78 - 
+=======TABLE IS SUCCESSFULLY DROPPED FROM THE DATABASE=======
+
+2021-11-19 11:12:04 INFO  JdbcDdlExample:81 - 
+=======DROP DATABASE=======
+2021-11-19 11:12:04 INFO  JdbcDdlExample:83 - 
+=======DATABASE IS SUCCESSFULLY DROPPED=======
+2021-11-19 11:50:52 INFO  JdbcDdlExample:36 - 
+=======Base de datos Base_Datos_Ejemplo Creada=======
+2021-11-19 11:50:52 INFO  JdbcDdlExample:43 - 
+=======Tabla Tabla_con_cosas Creada=======
+2021-11-19 11:50:52 INFO  JdbcDdlExample:46 - 
+=======Muestra la estructura de la base de datos=======
+2021-11-19 11:50:52 INFO  JdbcDdlExample:91 - Tabla_con_cosas Columns Are?= (IdCosa, NomCosa)
+
+2021-11-19 11:50:52 INFO  JdbcDdlExample:50 - 
+=======Borra los datos de la tabla=======
+2021-11-19 11:51:40 INFO  JdbcDdlExample:36 - 
+=======Base de datos Base_Datos_Ejemplo Creada=======
+2021-11-19 11:51:40 INFO  JdbcDdlExample:43 - 
+=======Tabla Tabla_con_cosas Creada=======
+2021-11-19 11:52:06 INFO  JdbcDdlExample:36 - 
+=======Base de datos Base_Datos_Ejemplo Creada=======
+2021-11-19 11:52:06 INFO  JdbcDdlExample:43 - 
+=======Tabla Tabla_con_cosas Creada=======
+2021-11-19 11:52:37 INFO  JdbcDdlExample:36 - 
+=======Base de datos Base_Datos_Ejemplo Creada=======
+2021-11-19 11:52:37 INFO  JdbcDdlExample:43 - 
+=======Tabla Tabla_con_cosas Creada=======
+2021-11-19 11:52:43 INFO  JdbcDdlExample:36 - 
+=======Base de datos Base_Datos_Ejemplo Creada=======
+2021-11-19 11:52:43 INFO  JdbcDdlExample:46 - 
+=======Muestra la estructura de la base de datos=======
+2021-11-19 11:52:43 INFO  JdbcDdlExample:91 - Tabla_con_cosas Columns Are?= (IdCosa, NomCosa)
+
+2021-11-19 11:52:43 INFO  JdbcDdlExample:50 - 
+=======Borra los datos de la tabla=======
+2021-11-19 11:53:15 INFO  JdbcDdlExample:36 - 
+=======Base de datos Base_Datos_Ejemplo Creada=======
+2021-11-19 11:53:15 INFO  JdbcDdlExample:46 - 
+=======Muestra la estructura de la base de datos=======
+2021-11-19 11:53:15 INFO  JdbcDdlExample:91 - Tabla_con_cosas Columns Are?= (IdCosa, NomCosa)
+
+2021-11-19 11:53:15 INFO  JdbcDdlExample:50 - 
+=======Borra los datos de la tabla=======
+2021-11-19 11:53:15 INFO  JdbcDdlExample:53 - 
+=======Muestra la estructura de la base de datos=======
+2021-11-19 11:53:15 INFO  JdbcDdlExample:91 - Tabla_con_cosas Columns Are?= (IdCosa)
+
+2021-11-19 11:53:15 INFO  JdbcDdlExample:57 - 
+=======Borra la tabla=======
+2021-11-19 11:53:15 INFO  JdbcDdlExample:61 - 
+=======Borra la base de datos=======
+2021-11-19 11:53:44 INFO  JdbcDdlExample:36 - 
+=======Base de datos Base_Datos_Ejemplo Creada=======
+2021-11-19 11:53:44 INFO  JdbcDdlExample:43 - 
+=======Tabla Tabla_con_cosas Creada=======
+2021-11-19 11:53:44 INFO  JdbcDdlExample:46 - 
+=======Muestra la estructura de la base de datos=======
+2021-11-19 11:53:44 INFO  JdbcDdlExample:91 - Tabla_con_cosas Columns Are?= (IdCosa, NomCosa)
+
+2021-11-19 11:53:44 INFO  JdbcDdlExample:50 - 
+=======Borra los datos de la tabla=======
+2021-11-19 11:53:44 INFO  JdbcDdlExample:53 - 
+=======Muestra la estructura de la base de datos=======
+2021-11-19 11:53:44 INFO  JdbcDdlExample:91 - Tabla_con_cosas Columns Are?= (IdCosa)
+
+2021-11-19 11:53:44 INFO  JdbcDdlExample:57 - 
+=======Borra la tabla=======
+2021-11-19 11:53:44 INFO  JdbcDdlExample:61 - 
+=======Borra la base de datos=======
+2021-11-19 11:54:08 INFO  JdbcDdlExample:36 - 
+=======Base de datos Base_Datos_Ejemplo Creada=======
+
+2021-11-19 11:54:08 INFO  JdbcDdlExample:43 - 
+=======Tabla Tabla_con_cosas Creada=======
+
+2021-11-19 11:54:08 INFO  JdbcDdlExample:46 - 
+=======Muestra la estructura de la base de datos=======
+
+2021-11-19 11:54:08 INFO  JdbcDdlExample:91 - Tabla_con_cosas Columns Are?= (IdCosa, NomCosa)
+
+2021-11-19 11:54:08 INFO  JdbcDdlExample:50 - 
+=======Borra los datos de la tabla=======
+
+2021-11-19 11:54:08 INFO  JdbcDdlExample:53 - 
+=======Muestra la estructura de la base de datos=======
+
+2021-11-19 11:54:08 INFO  JdbcDdlExample:91 - Tabla_con_cosas Columns Are?= (IdCosa)
+
+2021-11-19 11:54:08 INFO  JdbcDdlExample:57 - 
+=======Borra la tabla=======
+
+2021-11-19 11:54:08 INFO  JdbcDdlExample:61 - 
+=======Borra la base de datos=======
+
+2021-11-19 11:55:13 INFO  JdbcDdlExample:36 - 
+=======Base de datos Base_Datos_Ejemplo Creada=======
+
+2021-11-19 11:55:13 INFO  JdbcDdlExample:43 - 
+=======Tabla Tabla_con_cosas Creada=======
+
+2021-11-19 11:55:13 INFO  JdbcDdlExample:46 - 
+=======Muestra la estructura de la base de datos=======
+
+2021-11-19 11:55:13 INFO  JdbcDdlExample:91 - Tabla_con_cosas Columns Are?= (IdCosa, NomCosa)
+
+2021-11-19 11:55:13 INFO  JdbcDdlExample:50 - 
+=======Borra una columna de la tabla=======
+
+2021-11-19 11:55:13 INFO  JdbcDdlExample:53 - 
+=======Muestra la estructura de la base de datos=======
+
+2021-11-19 11:55:13 INFO  JdbcDdlExample:91 - Tabla_con_cosas Columns Are?= (IdCosa)
+
+2021-11-19 11:55:13 INFO  JdbcDdlExample:57 - 
+=======Borra la tabla=======
+
+2021-11-19 11:55:13 INFO  JdbcDdlExample:61 - 
+=======Borra la base de datos=======
+
+2021-11-19 12:53:56 INFO  JdbcDdlExample:36 - 
+=======Base de datos Base_Datos_Ejemplo Creada=======
+
+2021-11-19 12:53:56 INFO  JdbcDdlExample:43 - 
+=======Tabla Tabla_con_cosas Creada=======
+
+2021-11-19 12:53:56 INFO  JdbcDdlExample:47 - 
+=======Cosa Tabla_con_cosas insertada=======
+
+2021-11-19 12:59:25 INFO  JdbcDdlExample:36 - 
+=======Base de datos Base_Datos_Ejemplo Creada=======
+
+2021-11-19 12:59:25 INFO  JdbcDdlExample:43 - 
+=======Tabla Tabla_con_cosas Creada=======
+
+2021-11-19 12:59:38 INFO  JdbcDdlExample:36 - 
+=======Base de datos Base_Datos_Ejemplo Creada=======
+
+2021-11-19 12:59:38 INFO  JdbcDdlExample:47 - 
+=======Cosa Tabla_con_cosas insertada=======
+
+2021-11-19 12:59:57 INFO  JdbcDdlExample:36 - 
+=======Base de datos Base_Datos_Ejemplo Creada=======
+
+2021-11-19 12:59:57 INFO  JdbcDdlExample:47 - 
+=======Cosa Tabla_con_cosas insertada=======
+
+2021-11-19 12:59:57 INFO  JdbcDdlExample:50 - 
+=======Muestra la estructura de la base de datos=======
+
+2021-11-19 12:59:57 INFO  JdbcDdlExample:95 - Tabla_con_cosas Columns Are?= (IdCosa, NomCosa)
+
+2021-11-19 12:59:57 INFO  JdbcDdlExample:54 - 
+=======Borra una columna de la tabla=======
+
+2021-11-19 12:59:57 INFO  JdbcDdlExample:57 - 
+=======Muestra la estructura de la base de datos=======
+
+2021-11-19 12:59:57 INFO  JdbcDdlExample:95 - Tabla_con_cosas Columns Are?= (IdCosa)
+
+2021-11-19 12:59:57 INFO  JdbcDdlExample:61 - 
+=======Borra la tabla=======
+
+2021-11-19 12:59:57 INFO  JdbcDdlExample:65 - 
+=======Borra la base de datos=======
+
+2021-11-19 13:00:09 INFO  JdbcDdlExample:36 - 
+=======Base de datos Base_Datos_Ejemplo Creada=======
+
+2021-11-19 13:00:09 INFO  JdbcDdlExample:43 - 
+=======Tabla Tabla_con_cosas Creada=======
+
+2021-11-19 13:00:09 INFO  JdbcDdlExample:47 - 
+=======Cosa Tabla_con_cosas insertada=======
+
+2021-11-19 13:00:09 INFO  JdbcDdlExample:50 - 
+=======Muestra la estructura de la base de datos=======
+
+2021-11-19 13:00:09 INFO  JdbcDdlExample:95 - Tabla_con_cosas Columns Are?= (IdCosa, NomCosa)
+
+2021-11-19 13:00:09 INFO  JdbcDdlExample:54 - 
+=======Borra una columna de la tabla=======
+
+2021-11-19 13:00:09 INFO  JdbcDdlExample:57 - 
+=======Muestra la estructura de la base de datos=======
+
+2021-11-19 13:00:09 INFO  JdbcDdlExample:95 - Tabla_con_cosas Columns Are?= (IdCosa)
+
+2021-11-19 13:00:09 INFO  JdbcDdlExample:61 - 
+=======Borra la tabla=======
+
+2021-11-19 13:00:09 INFO  JdbcDdlExample:65 - 
+=======Borra la base de datos=======
+
